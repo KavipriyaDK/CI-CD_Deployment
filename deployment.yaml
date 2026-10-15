@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: YOUR_DH_USER/placement-portal:v1
+        image: kavipriya1928/placement-portal:v1
         ports:
         - containerPort: 80
         readinessProbe:
